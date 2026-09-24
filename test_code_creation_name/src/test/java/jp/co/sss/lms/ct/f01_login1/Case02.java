@@ -66,7 +66,7 @@ public class Case02 {
 
 		pageLoadTimeout(20);
 
-		//URLチェック
+		//タイトルチェック
 		assertEquals("ログイン | LMS", webDriver.getTitle());
 
 		//エラーメッセージチェック
