@@ -130,7 +130,7 @@ public class Case06 {
 
 		scrollTo("1000");
 
-		assertThat(webDriver.getCurrentUrl(), containsString("frequentlyAskedQuestionCategoryId=1"));
+		assertThat(webDriver.findElement(By.className("mb10")).getText(), containsString("キャンセル料"));
 
 		getEvidence(new Object() {
 		});
